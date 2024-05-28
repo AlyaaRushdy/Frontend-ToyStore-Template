@@ -1,0 +1,17 @@
+:root {
+  --bs-primary: #a5c926;
+  --bs-primary-rgb: 165, 201, 38;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h2,
+h2,
+h5,
+h6 {
+  font-family: "Varela Round", sans-serif;
+}
