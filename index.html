@@ -31,6 +31,85 @@
     <title>ToyStore</title>
   </head>
   <body>
+    <header class="sticky-top">
+      <!-- contact info  -->
+      <div class="bg-primary text-white">
+        <div
+          class="container-fluid container-lg d-flex justify-content-between align-items-center py-1"
+        >
+          <div class="d-flex gap-3 align-items-center fs-tiny">
+            <p class="m-0">Call Us: +1 213 974-5898</p>
+            <p class="m-0 d-none d-sm-block">
+              Email:
+              <a href="mailto:toystore@template.com" class="text-white">
+                toystore@template.com
+              </a>
+            </p>
+          </div>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="text-white">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="#" class="text-white">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="text-white">
+              <i class="fa-brands fa-pinterest"></i>
+            </a>
+            <a href="#" class="text-white">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-white py-3">
+        <div class="container-fluid container-lg align-items-baseline">
+          <a class="navbar-brand fs-4 p-0 me-5" href="#">ToyStore</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-lg-0 gap-3">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#"> Catalog </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark link" href="#">Delivery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <a
+            href="#"
+            class="text-dark text-decoration-none ms-auto me-2 me-lg-0"
+          >
+            cart
+            <i class="fa-solid fa-cart-shopping px-1"></i>
+            <span class="bg-primary rounded-circle text-white cart-count">
+              0
+            </span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
     <!-- popper js -->
     <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <!-- bootstrap -->

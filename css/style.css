@@ -15,3 +15,13 @@ h5,
 h6 {
   font-family: "Varela Round", sans-serif;
 }
+
+.fs-tiny {
+  font-size: 11px;
+}
+.cart-count {
+  display: inline-block;
+  min-width: 25px;
+  height: 25px;
+  text-align: center;
+}
