@@ -1,6 +1,8 @@
 :root {
   --bs-primary: #a5c926;
   --bs-primary-rgb: 165, 201, 38;
+  --mustard-yellow: #ffc12c;
+  --dark-pink: #fb416b;
 }
 
 /* utility classes */
@@ -10,6 +12,12 @@
 .hover-scale:hover {
   scale: 1.08;
   transition: scale, 500ms;
+}
+.bg-dark-pink {
+  background-color: var(--dark-pink);
+}
+.bg-mustard-yellow {
+  background-color: var(--mustard-yellow);
 }
 
 body {
@@ -24,6 +32,9 @@ h5,
 h6 {
   font-family: "Varela Round", sans-serif;
 }
+/* .container-fluid {
+  max-width: 1200px;
+} */
 
 .cart-count {
   display: inline-block;
@@ -37,13 +48,13 @@ h6 {
   height: 80vh;
   background: url("../images/hero.jpg");
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.animate__zoomIn {
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 2s;
-  animation-fill-mode: both;
+
+.home-img-translate {
+  translate: 0 -40px;
+}
+.home-section.animate__zoomIn {
+  animation-play-state: running;
 }
