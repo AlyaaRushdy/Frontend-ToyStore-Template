@@ -3,6 +3,15 @@
   --bs-primary-rgb: 165, 201, 38;
 }
 
+/* utility classes */
+.fs-tiny {
+  font-size: 11px;
+}
+.hover-scale:hover {
+  scale: 1.08;
+  transition: scale, 500ms;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -16,12 +25,25 @@ h6 {
   font-family: "Varela Round", sans-serif;
 }
 
-.fs-tiny {
-  font-size: 11px;
-}
 .cart-count {
   display: inline-block;
   min-width: 25px;
   height: 25px;
   text-align: center;
+}
+
+/* hero section */
+.section--hero {
+  height: 80vh;
+  background: url("../images/hero.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.animate__zoomIn {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-fill-mode: both;
 }
