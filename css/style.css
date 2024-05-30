@@ -64,3 +64,13 @@ h6 {
 .home-section.animate__zoomIn {
   animation-play-state: running;
 }
+
+.section--video {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("../images/bg-fixed.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
