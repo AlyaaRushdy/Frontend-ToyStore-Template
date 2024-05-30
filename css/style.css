@@ -74,3 +74,9 @@ h6 {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.subs-input:focus,
+.subs-input:focus-visible {
+  border-color: var(--bs-primary) !important;
+  box-shadow: none !important;
+}
