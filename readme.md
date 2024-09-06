@@ -1,11 +1,11 @@
 This is an implementation of the [ToyStore](https://toystore-template.webflow.io/) templete by Elastic Themes
 
-<!-- ## Screenshot
+## Screenshot
 
 <table>
  <tr>
-    <th width="70%">Desktop</th>
-    <th width="30%" >| Mobile</th>
+    <th width="75%">Desktop</th>
+    <th width="25%" >| Mobile</th>
   </tr>
   <tr>
     <td><img src="./screenshots/desktop.png"></td>
@@ -13,9 +13,9 @@ This is an implementation of the [ToyStore](https://toystore-template.webflow.io
   </tr>
 </table>
 
-## Links
+<!-- ## Links
 
-- Live Site URL: [Netlify](https://stratbootstrap-creativetemplate-alyaa.netlify.app/) --> -->
+- Live Site URL: [Netlify](https://stratbootstrap-creativetemplate-alyaa.netlify.app/) -->
 
 ## Built with
 
