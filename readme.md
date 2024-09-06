@@ -13,9 +13,9 @@ This is an implementation of the [ToyStore](https://toystore-template.webflow.io
   </tr>
 </table>
 
-<!-- ## Links
+## Links
 
-- Live Site URL: [Netlify](https://stratbootstrap-creativetemplate-alyaa.netlify.app/) -->
+- Live Site URL: [Netlify](https://toystore-implementation.netlify.app/)
 
 ## Built with
 
